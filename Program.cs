@@ -226,9 +226,6 @@ namespace FunctionsMethodsExercise
         }
         public static bool CheckPrimeNum(float number)
         {
-            //this is probably going to be taxing on the computer for large number but
-            //loop through all nums up to the target. check if target is divisible by it
-            //return false if it passes the check, except for 0 or 1 or 2 or something idk what the exception is
             bool isPrime = false;
             int counter = 0;
 
