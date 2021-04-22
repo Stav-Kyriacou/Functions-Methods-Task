@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace FunctionsMethodsExercise
 {
@@ -100,39 +101,192 @@ namespace FunctionsMethodsExercise
         }
         public static void Task4()
         {
-            
+            Console.Write("Please enter a string: ");
+            string input = Console.ReadLine();
+            Console.WriteLine("\"{0}\" contains {1} spaces", input, CountSpaces(input));
+        }
+        public static int CountSpaces(string input)
+        {
+            int spaces = 0;
+            foreach (char i in input)
+            {
+                if (i == ' ')
+                {
+                    spaces++;
+                }
+            }
+            return spaces;
         }
         public static void Task5()
         {
+            int[] nums = new int[5];
 
+            for (int i = 0; i < nums.Length; i++)
+            {
+                Console.Write("Enter a number: ");
+                nums[i] = int.Parse(Console.ReadLine());
+            }
+            Console.WriteLine();
+            Console.WriteLine("The sum of the elements of the array is {0}", SumArray(nums));
+        }
+        public static int SumArray(int[] nums)
+        {
+            int answer = 0;
+
+            foreach (int i in nums)
+            {
+                answer += i;
+            }
+            return answer;
         }
         public static void Task6()
         {
+            Console.Write("Enter a number: ");
+            int num1 = int.Parse(Console.ReadLine());
 
+            Console.Write("Enter another number: ");
+            int num2 = int.Parse(Console.ReadLine());
+
+            SwapTwoNumbers(num1, num2);
+        }
+        public static void SwapTwoNumbers(int num1, int num2)
+        {
+            int num3 = num1;
+            num1 = num2;
+            num2 = num3;
+            Console.WriteLine("Now the first number is: {0}, and the second number is: {1}", num1, num2);
         }
         public static void Task7()
         {
+            Console.Write("Input base number: ");
+            int baseNum = int.Parse(Console.ReadLine());
 
+            Console.Write("Input the exponent: ");
+            int exponent = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("The number {0} ^ {1} = {2}", baseNum, exponent, CalcPower(baseNum, exponent));
+
+        }
+        public static int CalcPower(int baseNum, int exponent)
+        {
+            int answer = baseNum;
+
+            for (int i = 1; i < exponent; i++)
+            {
+                answer *= baseNum;
+            }
+
+            return answer;
         }
         public static void Task8()
         {
+            Console.Write("Input the n number of Fibonacci Series: ");
+            int input = int.Parse(Console.ReadLine());
 
+            WriteFibonacci(input);
+        }
+        public static void WriteFibonacci(int length)
+        {
+            List<int> fibonacci = new List<int>();
+
+            for (int i = 0; i < length; i++)
+            {
+                if (i == 0)
+                {
+                    fibonacci.Add(i);
+                    Console.Write(i);
+                }
+                else if (i == 1)
+                {
+                    fibonacci.Add(i);
+                    Console.Write(i);
+                }
+                else
+                {
+                    fibonacci.Add((fibonacci[i - 1] + fibonacci[i - 2]));
+                    Console.Write(fibonacci[i]);
+                }
+                Console.Write(" ");
+            }
         }
         public static void Task9()
         {
+            Console.Write("Input a number: ");
+            int input = int.Parse(Console.ReadLine());
 
+        }
+        public static bool CheckPrimeNum()
+        {
+            //this is probably going to be taxing on the computer for large number but
+            //loop through all nums up to the target. check if target is divisible by it
+            //return false if it passes the check, except for 0 or 1 or 2 or something idk what the exception is
+            return true;
         }
         public static void Task10()
         {
+            Console.Write("Enter a number: ");
+            int input = int.Parse(Console.ReadLine());
 
+            Console.WriteLine("The sum of the digits of the number {0} is: {1}", input, SumDigits(input));
+        }
+        public static int SumDigits(int number)
+        {
+            int answer = 0;
+
+            string something = number.ToString();
+            foreach (char i in something)
+            {
+                answer += int.Parse(i.ToString());
+            }
+
+            return answer;
         }
         public static void Task11()
         {
+            Console.Write("Enter a number: ");
+            long input = long.Parse(Console.ReadLine());
 
+            Console.WriteLine("The factorial of {0}! is {1}", input, CalcFactorial(input));
+        }
+        public static long CalcFactorial(long number)
+        {
+            long answer = number;
+
+            for (long i = number - 1; i > 0; i--)
+            {
+                answer *= i;
+            }
+
+            return answer;
         }
         public static void Task12()
         {
+            Console.Write("Enter a number: ");
+            int input = int.Parse(Console.ReadLine());
 
+            Console.WriteLine("The Fibonacci of the {0} th term is {1}", input, CalcFibonacci(input));
+        }
+        public static int CalcFibonacci(int length)
+        {
+            //returns the number in the fibonacci sequence at the specified index
+            List<int> fibonacci = new List<int>();
+
+            for (int i = 0; i <= length; i++)
+            {
+                if (i == 0)
+                {
+                    fibonacci.Add(i);
+                }
+                else if (i == 1)
+                {
+                    fibonacci.Add(i);
+                }
+                else
+                {
+                    fibonacci.Add((fibonacci[i - 1] + fibonacci[i - 2]));
+                }
+            }
+            return fibonacci[fibonacci.Count - 1];
         }
     }
 }
