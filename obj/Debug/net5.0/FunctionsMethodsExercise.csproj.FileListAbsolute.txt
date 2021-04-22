@@ -1,0 +1,16 @@
+C:\Users\stavr\SwinUni\Programming\FunctionsMethodsExercise\bin\Debug\net5.0\FunctionsMethodsExercise.exe
+C:\Users\stavr\SwinUni\Programming\FunctionsMethodsExercise\bin\Debug\net5.0\FunctionsMethodsExercise.deps.json
+C:\Users\stavr\SwinUni\Programming\FunctionsMethodsExercise\bin\Debug\net5.0\FunctionsMethodsExercise.runtimeconfig.json
+C:\Users\stavr\SwinUni\Programming\FunctionsMethodsExercise\bin\Debug\net5.0\FunctionsMethodsExercise.runtimeconfig.dev.json
+C:\Users\stavr\SwinUni\Programming\FunctionsMethodsExercise\bin\Debug\net5.0\FunctionsMethodsExercise.dll
+C:\Users\stavr\SwinUni\Programming\FunctionsMethodsExercise\bin\Debug\net5.0\ref\FunctionsMethodsExercise.dll
+C:\Users\stavr\SwinUni\Programming\FunctionsMethodsExercise\bin\Debug\net5.0\FunctionsMethodsExercise.pdb
+C:\Users\stavr\SwinUni\Programming\FunctionsMethodsExercise\obj\Debug\net5.0\FunctionsMethodsExercise.csprojAssemblyReference.cache
+C:\Users\stavr\SwinUni\Programming\FunctionsMethodsExercise\obj\Debug\net5.0\FunctionsMethodsExercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stavr\SwinUni\Programming\FunctionsMethodsExercise\obj\Debug\net5.0\FunctionsMethodsExercise.AssemblyInfoInputs.cache
+C:\Users\stavr\SwinUni\Programming\FunctionsMethodsExercise\obj\Debug\net5.0\FunctionsMethodsExercise.AssemblyInfo.cs
+C:\Users\stavr\SwinUni\Programming\FunctionsMethodsExercise\obj\Debug\net5.0\FunctionsMethodsExercise.csproj.CoreCompileInputs.cache
+C:\Users\stavr\SwinUni\Programming\FunctionsMethodsExercise\obj\Debug\net5.0\FunctionsMethodsExercise.dll
+C:\Users\stavr\SwinUni\Programming\FunctionsMethodsExercise\obj\Debug\net5.0\ref\FunctionsMethodsExercise.dll
+C:\Users\stavr\SwinUni\Programming\FunctionsMethodsExercise\obj\Debug\net5.0\FunctionsMethodsExercise.pdb
+C:\Users\stavr\SwinUni\Programming\FunctionsMethodsExercise\obj\Debug\net5.0\FunctionsMethodsExercise.genruntimeconfig.cache
