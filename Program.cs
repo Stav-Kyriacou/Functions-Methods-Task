@@ -212,15 +212,44 @@ namespace FunctionsMethodsExercise
         public static void Task9()
         {
             Console.Write("Input a number: ");
-            int input = int.Parse(Console.ReadLine());
+            float input = float.Parse(Console.ReadLine());
+
+            if (CheckPrimeNum(input))
+            {
+                Console.WriteLine("{0} is a prime number", input);
+            }
+            else
+            {
+                Console.WriteLine("{0} is NOT a prime number", input);
+            }
 
         }
-        public static bool CheckPrimeNum()
+        public static bool CheckPrimeNum(float number)
         {
             //this is probably going to be taxing on the computer for large number but
             //loop through all nums up to the target. check if target is divisible by it
             //return false if it passes the check, except for 0 or 1 or 2 or something idk what the exception is
-            return true;
+            bool isPrime = false;
+            int counter = 0;
+
+            for (int i = 2; i < number; i++)
+            {
+                if (number % i == 0)
+                {
+                    counter++;
+                }
+            }
+
+            if (counter > 0)
+            {
+                isPrime = false;
+            }
+            else
+            {
+                isPrime = true;
+            }
+
+            return isPrime;
         }
         public static void Task10()
         {
@@ -268,7 +297,6 @@ namespace FunctionsMethodsExercise
         }
         public static int CalcFibonacci(int length)
         {
-            //returns the number in the fibonacci sequence at the specified index
             List<int> fibonacci = new List<int>();
 
             for (int i = 0; i <= length; i++)
