@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\stavr\\SwinUni\\Programming\\FunctionsMethodsExercise\\FunctionsMethodsExercise.csproj": {}
+    "F:\\VSProjects\\Programming\\Functions-Methods-Task\\FunctionsMethodsExercise.csproj": {}
   },
   "projects": {
-    "C:\\Users\\stavr\\SwinUni\\Programming\\FunctionsMethodsExercise\\FunctionsMethodsExercise.csproj": {
+    "F:\\VSProjects\\Programming\\Functions-Methods-Task\\FunctionsMethodsExercise.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\stavr\\SwinUni\\Programming\\FunctionsMethodsExercise\\FunctionsMethodsExercise.csproj",
+        "projectUniqueName": "F:\\VSProjects\\Programming\\Functions-Methods-Task\\FunctionsMethodsExercise.csproj",
         "projectName": "FunctionsMethodsExercise",
-        "projectPath": "C:\\Users\\stavr\\SwinUni\\Programming\\FunctionsMethodsExercise\\FunctionsMethodsExercise.csproj",
-        "packagesPath": "C:\\Users\\stavr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\stavr\\SwinUni\\Programming\\FunctionsMethodsExercise\\obj\\",
+        "projectPath": "F:\\VSProjects\\Programming\\Functions-Methods-Task\\FunctionsMethodsExercise.csproj",
+        "packagesPath": "C:\\Users\\Stavros\\.nuget\\packages\\",
+        "outputPath": "F:\\VSProjects\\Programming\\Functions-Methods-Task\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\stavr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Stavros\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -52,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

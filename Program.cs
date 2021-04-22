@@ -226,27 +226,15 @@ namespace FunctionsMethodsExercise
         }
         public static bool CheckPrimeNum(float number)
         {
-            bool isPrime = false;
-            int counter = 0;
-
             for (int i = 2; i < number; i++)
             {
                 if (number % i == 0)
                 {
-                    counter++;
+                    return false;
                 }
             }
 
-            if (counter > 0)
-            {
-                isPrime = false;
-            }
-            else
-            {
-                isPrime = true;
-            }
-
-            return isPrime;
+            return true;
         }
         public static void Task10()
         {
