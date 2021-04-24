@@ -69,11 +69,15 @@ namespace FunctionsMethodsExercise
             Console.WriteLine("----------------------");
             Console.WriteLine();
         }
+
+        //----------TASK 1----------
         public static void Task1()
         {
             Console.WriteLine("Welcome Friends!");
             Console.WriteLine("Have a nice day!");
         }
+
+        //----------TASK 2----------
         public static void Task2()
         {
             Console.Write("Please input a name: ");
@@ -84,6 +88,8 @@ namespace FunctionsMethodsExercise
             Console.WriteLine("Welcome friend {0}!", name);
             Console.WriteLine("Have a nice day!");
         }
+
+        //----------TASK 3----------
         public static void Task3()
         {
             Console.Write("Enter a number: ");
@@ -99,6 +105,8 @@ namespace FunctionsMethodsExercise
             int answer = num1 + num2;
             return answer;
         }
+
+        //----------TASK 4----------
         public static void Task4()
         {
             Console.Write("Please enter a string: ");
@@ -117,6 +125,8 @@ namespace FunctionsMethodsExercise
             }
             return spaces;
         }
+
+        //----------TASK 5----------
         public static void Task5()
         {
             int[] nums = new int[5];
@@ -139,6 +149,8 @@ namespace FunctionsMethodsExercise
             }
             return answer;
         }
+
+        //----------TASK 6----------
         public static void Task6()
         {
             Console.Write("Enter a number: ");
@@ -156,6 +168,8 @@ namespace FunctionsMethodsExercise
             num2 = num3;
             Console.WriteLine("Now the first number is: {0}, and the second number is: {1}", num1, num2);
         }
+
+        //----------TASK 7----------
         public static void Task7()
         {
             Console.Write("Input base number: ");
@@ -178,6 +192,8 @@ namespace FunctionsMethodsExercise
 
             return answer;
         }
+
+        //----------TASK 8----------
         public static void Task8()
         {
             Console.Write("Input the n number of Fibonacci Series: ");
@@ -209,6 +225,8 @@ namespace FunctionsMethodsExercise
                 Console.Write(" ");
             }
         }
+
+        //----------TASK 9----------
         public static void Task9()
         {
             Console.Write("Input a number: ");
@@ -236,6 +254,8 @@ namespace FunctionsMethodsExercise
 
             return true;
         }
+
+        //----------TASK 10----------
         public static void Task10()
         {
             Console.Write("Enter a number: ");
@@ -255,6 +275,8 @@ namespace FunctionsMethodsExercise
 
             return answer;
         }
+
+        //----------TASK 11----------
         public static void Task11()
         {
             Console.Write("Enter a number: ");
@@ -273,6 +295,8 @@ namespace FunctionsMethodsExercise
 
             return answer;
         }
+
+        //----------TASK 12----------
         public static void Task12()
         {
             Console.Write("Enter a number: ");
